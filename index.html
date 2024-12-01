@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<!--================================================
+    Project: EliteHomes - Luxury Real Estate Website
+    Developer: JohnDev19
+    GitHub: https://github.com/JohnDev19
+=====================================================    
+    Website Sections:
+    1. Navigation Bar
+    2. Hero Section
+    3. Partnerships Section
+    4. About Section
+    5. Why Choose Us Section
+    6. Performance Metrics Section
+    7. Properties Section
+    8. Contact Section
+    9. Footer Section
+======================================================
+    Technologies Used:
+    - HTML5
+    -CSS3
+    - JavaScript
+    - Bootstrap 5
+    - Font Awesome
+===================================================-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title -->
+    <title>EliteHomes - Luxury Real Estate</title>
+    <!-- SEO -->
+    <meta name="description" content="Expert real estate agents specializing in luxury residential, commercial, and international property investments. Delivering exceptional service and market insights.">
+    <meta name="keywords" content="real estate, luxury properties, investment, property, real estate agents, commercial real estate, residential properties">
+    <!-- Open Graph / Social Media Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.johndev19realestate.com">
+    <meta property="og:title" content="Luxury Real Estate Professionals">
+    <meta property="og:description" content="Expert real estate agents specializing in luxury residential, commercial, and international property investments.">
+    <meta property="og:image" content="img/poster.jpg">
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.johndev19realestate.com">
+    <meta name="twitter:title" content="Luxury Real Estate Professionals">
+    <meta name="twitter:description" content="Expert real estate agents specializing in luxury residential, commercial, and international property investments.">
+    <meta name="twitter:image" content="img/poster.jpg">
+    <!-- Robots and crawler -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.johndev19realestate.com">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/modern-real-estate-and-construction-logo_19897561.png">
+    <!-- Apple touch -->
+    <link rel="apple-touch-icon" href="img/modern-real-estate-and-construction-logo_19897561.png">
+    <!-- Theme color -->
+    <meta name="theme-color" content="#007bff">
+    <!-- Links -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="#" class="navbar-brand">
+            <img src="img/modern-real-estate-and-construction-logo_19897561.png" alt="EliteHomes Logo" class="logo-img">
+        </a>
+        <ul class="navbar-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#signup" class="btn-signup">Sign Up</a></li>
+        </ul>
+    </div>
+    <button class="navbar-toggle" aria-label="Toggle navigation">
+        <span class="navbar-toggle-icon"></span>
+    </button>
+</nav>
+    <main>
+      <!-- Hero Section -->
+        <section id="home" class="hero">
+    <div class="container d-flex flex-column flex-lg-row align-items-center">
+        <div class="hero-content col-lg-6 text-center text-lg-start">
+            <h1>Discover Unparalleled Luxury</h1>
+            <p>Experience the epitome of elegance with our exclusive properties</p>
+            <a href="#properties" class="btn btn-primary btn-lg">Explore Elite Homes</a>
+        </div>
+        <div class="hero-image col-lg-6 d-none d-lg-block position-relative" style="z-index: 2;">
+            <img src="img/hero-image.png" alt="Luxury Home" class="img-fluid rounded">
+        </div>
+        </div>
+        </section>
+        
+    <!-- Partnerships Section -->
+    <section id="partnerships" class="partnerships-section py-4">
+    <div class="container-fluid">
+        <div class="partnerships-marquee">
+            <div class="partners-track">
+                <div class="partners-logos">
+                    <img src="img/partnerships/sothebys-international-realty.png" alt="Sotheby's International Realty" class="partner-logo">
+                    <img src="img/partnerships/christie.png" alt="Christie's Real Estate" class="partner-logo">
+                    <img src="img/partnerships/knight-frank.png" alt="Knight Frank" class="partner-logo">
+                    <img src="img/partnerships/jll.png" alt="Jones Lang LaSalle" class="partner-logo">
+                    <img src="img/partnerships/cushman-wakefield.png" alt="Cushman & Wakefield" class="partner-logo">
+                    <!-- Duplicate logos -  infinite scroll -->
+                    <img src="img/partnerships/sothebys-international-realty.png" alt="Sotheby's International Realty" class="partner-logo">
+                    <img src="img/partnerships/christie.png" alt="Christie's Real Estate" class="partner-logo">
+                    <img src="img/partnerships/knight-frank.png" alt="Knight Frank" class="partner-logo">
+                    <img src="img/partnerships/jll.png" alt="Jones Lang LaSalle" class="partner-logo">
+                    <img src="img/partnerships/cushman-wakefield.png" alt="Cushman & Wakefield" class="partner-logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+         <!-- About Section -->
+         <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="section-title">About EliteHomes</h2>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 animate-on-scroll">
+                        <p>EliteHomes represents the pinnacle of luxury real estate, showcasing an exceptional portfolio of the world's most prestigious properties. Our unwavering commitment to excellence and discretion guarantees that every client enjoys a personalized experience in their quest for the perfect home.</p>
+                        <p>With a global network of expert agents and a deep understanding of exclusive markets, we connect discerning individuals with extraordinary residences that truly reflect their unique lifestyles and aspirations. At EliteHomes, we don’t just sell properties; we curate experiences that elevate living to an art form.</p>
+                        <p>
+                          We understand that finding the right home is more than just a transaction; it’s a significant life decision. That’s why our dedicated team takes the time to listen and understand each client’s vision, ensuring that we not only meet but exceed their expectations. Whether you're seeking a serene beachfront villa or a sophisticated urban penthouse, we are here to guide you every step of the way, making the journey as enjoyable as the destination.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 animate-on-scroll">
+                        <img src="img/abt.jpeg" alt="Luxury Property" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Why Choose Us Section -->
+  <section id="faq" class="why-choose-section py-5">
+    <div class="container">
+        <h2 class="section-title">Why Choose Us?</h2>
+        <div class="row">
+            <div class="col-md-4 animate-on-scroll">
+                <div class="why-choose-item text-center">
+                    <i class="fas fa-search"></i>
+                    <div class="why-choose-content">
+                        <h3>Search Property from Anywhere</h3>
+                        <p>Leverage our advanced digital platform to explore luxury properties globally. Our comprehensive online tools allow you to discover and analyze premium real estate from the comfort of your home.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 animate-on-scroll">
+                <div class="why-choose-item text-center">
+                    <i class="fas fa-user-friends"></i>
+                    <div class="why-choose-content">
+                        <h3>Professional & Friendly Agents</h3>
+                        <p>Our team of expert agents combines deep market knowledge with personalized service. We provide tailored guidance to ensure your luxury real estate journey is smooth and exceptional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 animate-on-scroll">
+                <div class="why-choose-item text-center">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <div class="why-choose-content">
+                        <h3>Buy and Sell Elite Properties</h3>
+                        <p>We specialize in high-end real estate transactions, offering strategic insights and exclusive market access to help you make informed investment decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Performance Metrics Section -->
+<section class="performance-metrics-parallax">
+    <div class="parallax-bg" style="background-image: url('img/metrics-bg.jpg')">
+        <div class="overlay"></div>
+    </div>
+    
+    <div class="container performance-metrics-content">
+        <div class="row text-center">
+            <div class="col-12 mb-5">
+                <h2 class="section-title text-white">
+                    Our <span class="highlight">Performance</span> Metrics
+                </h2>
+                <p class="lead text-white-50">
+                    Transforming real estate experiences through data-driven excellence
+                </p>
+            </div>
+        </div>
+        
+        <div class="metrics-grid">
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="metric-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="metric-icon">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h2 class="metric-number" data-target="500">0</h2>
+                            <p class="metric-label">Satisfied Clients</p>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-3">
+                    <div class="metric-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="metric-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h2 class="metric-number" data-target="250">0</h2>
+                            <p class="metric-label">Successful Deals</p>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-3">
+                    <div class="metric-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="metric-icon">
+                            <i class="bi bi-trophy"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h2 class="metric-number" data-target="15">0</h2>
+                            <p class="metric-label">Years of Excellence</p>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6 col-md-3">
+                    <div class="metric-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="metric-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h2 class="metric-number" data-target="95">0</h2>
+                            <p class="metric-label">Client Satisfaction</p>
+                            <div class="metric-progress">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Properties Section -->
+<section id="properties" class="py-5">
+    <div class="container">
+        <h2 class="section-title">Featured Elite Properties</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4 animate-on-scroll">
+                <div class="property-card">
+                    <img src="img/prop1.jpeg" alt="Luxury Villa">
+                    <div class="property-content">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>Opulent Oceanfront Estate</h3>
+                            <button class="btn btn-link heart-button" aria-label="Favorite">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                        <p class="price">₱ 250,000,000</p>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <div class="text-center mx-3">
+                                <i class="fas fa-bed fa-2x"></i>
+                                <p>7</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="fas fa-bath fa-2x"></i>
+                                <p>9</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="fas fa-ruler-combined fa-2x"></i>
+                                <p>15,000</p>
+                            </div>
+                        </div>
+                        <div class="location-info d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt me-2"></i> 
+                            <span>Located in Taguig, Philippines</span>
+                        </div> 
+                        <!-- This is optional
+                        <span class="tag">This Tag</span>
+                        <span class="tag">This Tag</span> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 animate-on-scroll">
+                <div class="property-card">
+                    <img src="img/prop2.jpg" alt="Penthouse">
+                    <div class="property-content">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>Skyline Penthouse Retreat</h3>
+                            <button class="btn btn-link heart-button" aria-label="Favorite">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                        <p class="price">₱150,000,000</p>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <div class="text-center mx-3">
+                                <i class="fas fa-bed fa-2x"></i>
+                                <p>4</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="fas fa-bath fa-2x"></i>
+                                <p>5.5</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="fas fa-ruler-combined fa-2x"></i>
+                                <p>6,500</p>
+                            </div>
+                        </div>
+                        <div class="location-info d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt me-2"></i> 
+                            <span>Located in Makati, Philippines</span>
+                        </div>
+                        <!-- This is optional
+                        <span class="tag">This Tag</span>
+                        <span class="tag">This Tag</span> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 animate-on-scroll">
+                <div class="property-card">
+                    <img src="img/prop3.jpg" alt="Country Estate">
+                    <div class="property-content">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h3>Majestic Mountain Chateau</h3>
+                            <button class="btn btn-link heart-button" aria-label="Favorite">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                        <p class="price">₱500,000,000</p>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <div class="text-center mx-3">
+                                <i class="fas fa-bed fa-2x"></i>
+                                <p>8</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="fas fa-bath fa-2x"></i>
+                                <p>10</p>
+                            </div>
+                            <div class="text-center mx-3">
+                                <i class="fas fa-ruler-combined fa-2x"></i>
+                                <p>20,000</p>
+                            </div>
+                        </div>
+                        <div class="location-info d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt me-2"></i> 
+                            <span>Located in Baguio, Philippines</span>
+                        </div>
+                        <!-- This is optional
+                        <span class="tag">This Tag</span>
+                        <span class="tag">This Tag</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="section-title">Connect with Us</h2>
+        <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <form id="contact-form" class="contact-form h-100 d-flex flex-column contact-form-section">
+                    <div class="form-header mb-4">
+                        <h3 class="text-center">Request a Consultation</h3>
+                        <p class="text-muted text-center">Fill out the form and our luxury property experts will get back to you soon.</p>
+                    </div>
+                    <div class="form-group mb-3 position-relative">
+                        <div class="input-icon-wrapper">
+                            <i class="fas fa-user input-icon"></i>
+                            <input type="text" class="form-control form-control-lg custom-input" name="name" placeholder="Your Full Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 position-relative">
+                        <div class="input-icon-wrapper">
+                            <i class="fas fa-envelope input-icon"></i>
+                            <input type="email" class="form-control form-control-lg custom-input" name="email" placeholder="Your Email Address" required>
+                        </div>
+                    </div>
+                    <div class="form-group mb-3 position-relative">
+                        <div class="input-icon-wrapper">
+                            <i class="fas fa-phone input-icon"></i>
+                            <input type="tel" class="form-control form-control-lg custom-input" name="phone" placeholder="Phone Number (Optional)">
+                        </div>
+                    </div>
+                    <div class="custom-select-wrapper">
+                      <div class="input-icon-wrapper">
+                        <i class="fas fa-list-alt input-icon custom-select-icon"></i>
+                        <div class="custom-select" tabindex="0">Select Inquiry Type</div>
+                        </div>
+                        <div class="custom-select-dropdown">
+                          <div class="custom-select-option" data-value="property-viewing">Property Viewing</div>
+                          <div class="custom-select-option" data-value="investment-consultation">Investment Consultation</div>
+                          <div class="custom-select-option" data-value="market-analysis">Market Analysis</div>
+                          <div class="custom-select-option" data-value="other">Other Inquiry</div>
+                          </div>
+                          </div>
+                    <div class="form-group mb-3">
+                        <textarea class="form-control form-control-lg custom-textarea" name="message" rows="4" placeholder="Tell us about your luxury property goals" required></textarea>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="privacy-policy" required>
+                        <label class="form-check-label" for="privacy-policy">
+                            I agree to the privacy policy and terms of service
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100 contact-submit-btn">
+                        <i class="fas fa-paper-plane me-2"></i>Send Inquiry
+                    </button>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <div class="map-container h-100">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799011344!2d120.966693!3d14.599512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b5a1f1c1c1c1c1%3A0x1234567890abcdef!2sManila%2C%20Philippines!5e0!3m2!1sen!2sus!4v1631234567890!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- Footer Swction -->
+<footer class="text-light py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <img src="img/modern-real-estate-and-construction-logo_19897561.png" alt="Company Logo" class="footer-logo">
+            <h3 class="mt-2">EliteHomes</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h3>About EliteHomes</h3>
+                <p>EliteHomes is a premier luxury real estate agency dedicated to providing exceptional service and expertise in high-end property transactions. Our team is committed to helping you find your dream home.</p>
+                <p>With a global network of expert agents, we connect discerning individuals with extraordinary residences that reflect their unique lifestyles.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <h3>Quick Links</h3>
+              <ul class="list-unstyled">
+                <li><a href="#home" class="text-light"><i class="arrow fa-solid fa-chevron-right"></i> Home</a></li>
+                <li><a href="#about" class="text-light"><i class="arrow fa-solid fa-chevron-right"></i> About Us</a></li>
+                <li><a href="#services" class="text-light"><i class="arrow fa-solid fa-chevron-right"></i> Services</a></li>
+                <li><a href="#properties" class="text-light"><i class="arrow fa-solid fa-chevron-right"></i> Properties</a></li>
+                <li><a href="#contact" class="text-light"><i class="arrow fa-solid fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h3>Contact Us</h3>
+                <p><strong>Email:</strong> info@elitehomes.com</p>
+                <p><strong>Phone:</strong> +1 (234) 567-890</p>
+                <p><strong>Address:</strong> 123 Luxury St, Suite 456, PH</p>
+                <h5>Subscribe to Our Newsletter</h5>
+                <p>Stay updated with the latest news and offers. Subscribe to our newsletter!</p>
+                <form action="#" method="post">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email" required>
+                        <button class="btn btn-primary" type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <p>&copy; 2024 EliteHomes. All rights reserved.</p>
+            <div class="social-icons mb-2">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>Developed by JohnDev19</p>
+        </div>
+    </div>
+    <div class="go-to-top" id="goToTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
